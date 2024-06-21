@@ -66,8 +66,11 @@ footer p {
 
 footer .social a {
     margin: 0 0.5rem;
-    width: 10px;
-    height: 10px;}
+    }
+
+    footer .social a img {
+        max-width: 40px;
+    }
 
 @media (min-width: 600px) {
     .recipes {

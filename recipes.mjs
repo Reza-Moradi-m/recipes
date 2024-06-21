@@ -1,4 +1,4 @@
-export const recipes = [
+ const recipes = [
     {
         title: "Spaghetti Carbonara",
         description: "A classic Italian pasta dish...",
@@ -13,7 +13,7 @@ export const recipes = [
     },
     {
         title: "Apple Crisp",
-        description: "A delicious apple dessert...",
+        description: "This apple crisp recipe is a simple yet delicious fall dessert that's great served warm with vanilla ice cream.",
         image: "images/apple-crisp.jpg",
         rating: 4
     },

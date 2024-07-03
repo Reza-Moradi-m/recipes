@@ -59,8 +59,8 @@ main {
     border: none;
     cursor: pointer;
     float: right;
-    margin-top: -2%;
-    margin-right: -0.5%;
+    margin-top: -2.35rem;
+    margin-right: -0.6rem;
 }
 
 .recipes {

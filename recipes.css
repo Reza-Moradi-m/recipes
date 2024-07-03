@@ -145,6 +145,12 @@ footer .social a img {
         flex: 1;
         padding-left: 1rem;
     }
+
+    .recipe__description {
+        display: none;
+    }
+
+    
 }
 
 @media (min-width: 960px) {
@@ -168,4 +174,15 @@ footer .social a img {
     footer p {
         margin: 0.5rem 0;
         text-align: left;
+    }
+
+    .recipe__description {
+        display: block;
+    }
+}
+
+@media (max-width: 600px) {
+    .recipe__description {
+        display: none;
+    }
 }

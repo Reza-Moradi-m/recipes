@@ -14,6 +14,8 @@ body {
     color: var(--text-dark);
     margin: 0;
     padding: 0;
+    height: 100vh;
+    width: 100vw;
 }
 
 header {
@@ -44,17 +46,21 @@ main {
     width: calc(100% - 90px);
     padding: 0.5rem;
     font-size: 1rem;
-    display: inline-block;
+    display: inline;
+    float: left ;
 }
 
 .search button {
     width: 80px;
-    padding: 0.5rem;
+    padding: 0.6rem;
     font-size: 1rem;
-    display: inline-block;
+    display: inline;
     background-color: var(--secondary-color);
     border: none;
     cursor: pointer;
+    float: right;
+    margin-top: -2%;
+    margin-right: -0.5%;
 }
 
 .recipes {
@@ -143,7 +149,7 @@ footer .social a img {
 
 @media (min-width: 960px) {
     body {
-        max-width: 960px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
